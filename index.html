@@ -24,7 +24,7 @@
   </header>
   <main>
     <div id="mensagens">
-      <div id="user_name" class="font"><b>Ola Raphael!</b></div>
+      <div id="user_name" class="font"><b>Ola Gabriel!</b></div>
       <div class="mns_box">
         <div class="mns_icon"><span class="material-symbols-outlined icoP">notifications_active</span></div>
         <div class="mns font">Voce possui um armario reservado com entrega para hoje...</div>
@@ -56,15 +56,15 @@
         <p id="resultado"></p>
     </div>
 
-    <div class="container" id="alertas_vagas">
-        <h2 class="titulo_aula">Alertas de Vagas</h2>
-        <p>Como estudante de engenharia, configure notificacoes para vagas de estagio.</p>
+    <div class="container alertas-card" id="alertas_vagas">
+        <h2 class="titulo_aula alert-title">Alertas de Vagas</h2>
+        <p class="alerta-descricao">Como estudante de engenharia, configure notificacoes para vagas de estagio.</p>
 
         <div class="alert-progress">
+          <div class="progress-label"><span id="alertProgressText" class="status muted">0% completo</span></div>
           <div class="progress-bar">
             <div class="progress-bar-fill" id="alertProgressFill"></div>
           </div>
-          <span id="alertProgressText" class="status muted">0% completo</span>
         </div>
 
         <div class="quick-presets">
